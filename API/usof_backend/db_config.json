@@ -1,0 +1,8 @@
+{
+    "database":"usof_2",
+    "username":"mtkachov",
+    "password":"securepass",
+    "host":"localhost",
+    "port":3306,
+    "dialect":"mysql"
+}
