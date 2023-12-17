@@ -8,6 +8,17 @@ It also has an Admin panel for CRUD operations on database.
 
 It sends data in a JSON format that can be seen later.
 
+## Config
+
+To configure this project you should specify following enviroment variables:
+1. JWT_SECRET - secret used to sign JWT
+2. BCRYPT_SALT - number of salt rounds for hashing algorithm
+3. EMAIL_LOGIN - google email login used for sending confirmation emails
+4. EMAIL_PASSWORD - password for respective email
+5. PORT - port for running this server on
+
+It can also be done by using .env file(example is named dotenv).
+
 ## Requirements
 - NodeJS with ESM support
 - NPM
