@@ -4,6 +4,13 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 This project is a frontend part of USOF project of mtkachov. The backend can be found in the API folder in the repo root.
 
+## Config
+
+To configure this project you should specify the URL addresses of the frontend and backend servers 
+as enviroment variables REACT_APP_FRONT_SERVER and REACT_APP_API_SERVER respectively.
+
+It can also be done by using .env file(example is named dotenv).
+
 ## Available Scripts
 
 In the project directory, you can run:
